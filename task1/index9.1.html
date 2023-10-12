@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sample Form</title>
+    <link rel="stylesheet" href="styles/stylesheet9.1.css">
+</head>
+<body>
+<div class="form-container">
+    <h2 style="text-align: center; color: #007BFF;">Sample Form</h2>
+    <form id="sample-form">
+        <div class="form-group">
+            <label for="text-input">Text Input:</label>
+            <input type="text" id="text-input" name="text-input" required>
+        </div>
+
+        <div class="form-group">
+            <label for="number-input">Number Input:</label>
+            <input type="number" id="number-input" name="number-input" required>
+        </div>
+
+        <div class="form-group">
+            <label for="date-input">Date Input:</label>
+            <input type="date" id="date-input" name="date-input" required>
+        </div>
+
+        <div class="form-group">
+            <label>Email Input:</label>
+            <input type="email" id="email-input" name="email-input" required>
+        </div>
+
+        <div class="form-group">
+            <label>Password:</label>
+            <input type="password" id="password-input" name="password-input" required>
+            <span class="password-hint">Password must contain at least one uppercase letter, one lowercase letter, one number, one special character, and be at least 8 characters long.</span>
+        </div>
+
+        <div class="form-group">
+            <label>Repeat Password:</label>
+            <input type="password" id="password-repeat" name="password-repeat" required>
+        </div>
+
+        <div class="radio-group">
+            <label>Radio Buttons:</label>
+            <input type="radio" id="radio1" name="radio-group" value="Option 1">
+            <label for="radio1">Option 1</label>
+            <input type="radio" id="radio2" name="radio-group" value="Option 2">
+            <label for="radio2">Option 2</label>
+        </div>
+
+        <button type="submit">Submit</button>
+    </form>
+</div>
+
+<div id="result" class="success-message"></div>
+
+<script src="scripts/script9.1.js">
+
+
+</script>
